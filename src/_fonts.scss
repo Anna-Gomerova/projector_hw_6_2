@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    src: url('./fonts/BasisGrotesquePro-Regular.eot');
+    src: url('./fonts/BasisGrotesquePro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+        url('fonts/BasisGrotesquePro-Regular.woff') format('woff'),
+        url('fonts/BasisGrotesquePro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    src: url('./fonts/BasisGrotesquePro-Bold.eot');
+    src: url('./fonts/BasisGrotesquePro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+        url('fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+        url('fonts/BasisGrotesquePro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    src: url('./fonts/BasisGrotesquePro-Light.eot');
+    src: url('./fonts/BasisGrotesquePro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BasisGrotesquePro-Light.woff2') format('woff2'),
+        url('fonts/BasisGrotesquePro-Light.woff') format('woff'),
+        url('fonts/BasisGrotesquePro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'BasisGrotesquePro';
+    src: url('./fonts/BasisGrotesquePro-Medium.eot');
+    src: url('./fonts/BasisGrotesquePro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+        url('fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+        url('fonts/BasisGrotesquePro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: fallback;
+}
