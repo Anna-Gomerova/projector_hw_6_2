@@ -2,27 +2,32 @@
 <html lang=uk>
 
 <head>
-    <title>tailwindCSS</title>
+    <title>TailwindCSS</title>
     <meta charset="utf-8">
     <meta name="description" content="#">
     <meta name="viewport" content="width=device-width,
 initial-scale=1">
 
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" type="text/css" href="output.css" />
 </head>
 
 <body>
     <div class="container">
-        <section class="container__item section support">
+        <section class="container__item section about-us">
             <div class="section__title title title_left">
-                <h3 class="title__name h3-title h3-title_blue">підтримка</h3>
-                <h2 class="title__tagline">поширені запитання<br>
-                    — додаткова інформація </h2>
+                <h3 class="title__name h3-title h3-title_blue">програма</h3>
+                <h2 class="title__tagline">Навчай<br>
+                    — для України</h2>
                 <p class="title__text  text text_light">
-                    Програма для змін у країні
+                    Освітньо-громадська організація.
                 </p>
             </div>
+            <input type="radio" id="contactChoice1" name="about" value="email">
+            <label for="contactChoice1">Email</label>
+
+            <input type="radio" id="contactChoice2" name="about" value="phone">
+            <label for="contactChoice2">Phone</label>
         </section>
     </div>
-</body>        
+</body>
