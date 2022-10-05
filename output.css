@@ -628,6 +628,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .pt-32 {
   padding-top: 8rem;
 }
@@ -642,6 +646,10 @@ video {
 
 .pr-12 {
   padding-right: 3rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-base {
@@ -679,4 +687,67 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:p-12 {
+    padding: 3rem;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .sm\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .sm\:pr-12 {
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-full {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-full {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-full {
+    width: 100%;
+  }
+
+  .xl\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .xl\:pl-32 {
+    padding-left: 8rem;
+  }
+
+  .xl\:pr-12 {
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:w-full {
+    width: 100%;
+  }
 }

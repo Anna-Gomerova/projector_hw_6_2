@@ -68,7 +68,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
 }
 
 .img {
@@ -119,14 +119,14 @@ body {
 /* Grid */
 
 .about-us {
-    width: 100%;
+    width: 100vw;
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: 50% 50%;
 
 }
 
-.about-us__title
+.about-us__title-wrapper
  {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -198,28 +198,110 @@ body {
     /* 35px Ð²Ñ–Ð´Ð½Ð¾ÑÐ½Ð¾ 720px */
 }
 
-.goal {
-    width: 100%;
+@media screen and (max-width: 900px) {
+
+
+.about-us {
+    width: 100vw;
     display: grid;
-    grid-template-areas: "d c";
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
     grid-template-columns: 50% 50%;
 
 }
 
-.goal__text {
-    grid-area: c;
+.about-us__title-wrapper
+ {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 10;
 }
 
-.goal__picture {
-    grid-area: d;
+.about-us__button_ridht {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 10; 
 }
 
+.about-us__button_left {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 10; 
+}
+
+.about-us__img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    z-index: 10; 
+}
+
+.about-us__description {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    z-index: 20; 
+}
+
+}
+
+@media screen and (max-width: 800px) {
 
 
-/* .text_buttoned {
-    color: #ffffff;
-    opacity: 1;
-    text-transform: uppercase;
-
-} */
+    .about-us {
+        width: 100vw;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 100%;
+    
+    }
+    
+    .about-us__title-wrapper
+     {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        z-index: 10;
+    }
+    
+    .about-us__button_ridht {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        z-index: 10; 
+    }
+    
+    .about-us__button_left {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        z-index: 10; 
+    }
+    
+    .about-us__img {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        z-index: 10; 
+    }
+    
+    .about-us__description {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        z-index: 20; 
+    }
+    
+    }
